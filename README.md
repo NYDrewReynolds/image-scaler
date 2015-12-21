@@ -9,6 +9,10 @@ GET
   bounding_box: [200,200]
 }
 ```
+`https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=400+200&bounding_box=200+200`
+
+[Live Example](https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=400+200&bounding_box=200+200)
+
 
 RESPONSE:
 ```js
@@ -29,6 +33,10 @@ EXAMPLE REQUEST:
 
 ```
 
+`https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=1256+1200+600+800+200+200+400+200+800+1256&bounding_box=200+200`
+
+[Live Example](https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=1256+1200+600+800+200+200+400+200+800+1256&bounding_box=200+200)
+
 RESPONSE:
 ```js
 {
@@ -36,9 +44,3 @@ RESPONSE:
   bounding_box: [200,200]
 }
 ```
-#Production
-[Production Site](https://image-scaler.herokuapp.com)
-
-EXAMPLE REQUEST:
-
-`https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=400+200&bounding_box=200+200`
