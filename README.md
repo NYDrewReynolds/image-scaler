@@ -40,4 +40,5 @@ RESPONSE:
 [Production Site](https://image-scaler.herokuapp.com)
 
 EXAMPLE REQUEST:
+
 `https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=400+200&bounding_box=200+200`
