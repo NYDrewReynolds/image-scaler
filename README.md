@@ -1,3 +1,4 @@
+#Project Outline
 Create a production level API that will scale aspect ratio of an image dimensions to a bounding box.  A user should be able to make a request with an array of image dimensions ([w,h]) and a bounding box dimension ([w,h]). The api should be able to handle multiple sets of image dimensions at once ([w,h,w,h,w,h,w,h]) and return the scaled down ratios
 
 EXAMPLE REQUEST:
@@ -35,3 +36,8 @@ RESPONSE:
   bounding_box: [200,200]
 }
 ```
+#Production
+[Production Site](https://image-scaler.herokuapp.com)
+
+EXAMPLE REQUEST:
+`https://image-scaler.herokuapp.com/api/v1/images/scale?image_dimensions=400+200&bounding_box=200+200`
