@@ -71,5 +71,86 @@
       ]
     },
     "timestamp": 1450730304
+  },
+  "RSpec": {
+    "coverage": {
+      "/Users/drewreynolds/Documents/style-lend/image-scale/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/drewreynolds/Documents/style-lend/image-scale/app/controllers/api/v1/images_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewreynolds/Documents/style-lend/image-scale/app/controllers/application_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/drewreynolds/Documents/style-lend/image-scale/lib/application_responder.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewreynolds/Documents/style-lend/image-scale/app/models/image_scaler.rb": [
+        1,
+        null,
+        1,
+        4,
+        4,
+        null,
+        4,
+        8,
+        8,
+        null,
+        8,
+        null,
+        8,
+        8,
+        null,
+        null,
+        null,
+        4,
+        null,
+        null,
+        1,
+        4,
+        4,
+        null,
+        null,
+        1,
+        8,
+        8,
+        null,
+        8,
+        null,
+        null,
+        1,
+        13,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1450802282
   }
 }
