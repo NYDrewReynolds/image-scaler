@@ -3,6 +3,7 @@ Create a production level API that will scale aspect ratio of an image dimension
 
 EXAMPLE REQUEST:
 GET
+
 ```js
 {
   image_dimensions: [400,200],
